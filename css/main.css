@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0; }
+
+body {
+  width: 100vw;
+  height: 200vh;
+  background-color: #decfcf; }
+
+.app {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto; }
+  .app .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black; }
+    .app .header .header-logo {
+      text-decoration: none;
+      font-family: 'Cormorant Garamond', serif;
+      text-transform: capitalize;
+      font-size: 25px;
+      color: black; }
+    .app .header .header-navbar {
+      font-family: 'Raleway', sans-serif;
+      text-transform: capitalize;
+      font-size: 16px; }
+      .app .header .header-navbar .header-navbar__ancor {
+        text-decoration: none;
+        color: black;
+        padding: 5px; }
+    .app .header .searchAndBuy {
+      font-family: 'Raleway', sans-serif;
+      text-transform: capitalize;
+      font-size: 16px; }
+      .app .header .searchAndBuy a {
+        text-decoration: none;
+        color: black;
+        padding: 5px; }
+
+/*# sourceMappingURL=main.css.map */
