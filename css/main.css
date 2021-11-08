@@ -39,5 +39,52 @@ body {
         text-decoration: none;
         color: black;
         padding: 5px; }
+  .app .main-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 5px solid red; }
+    .app .main-page .collections {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 4px solid saddlebrown; }
+    .app .main-page .new-books {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 4px solid blueviolet; }
+    .app .main-page .bestselling {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 4px solid green; }
+    .app .main-page .everyone-talking-about {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 4px solid darkgoldenrod; }
+    .app .main-page .features {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 4px solid black; }
+    .app .main-page .events {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 3px solid slateblue; }
+    .app .main-page .sign-up {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 3px solid firebrick; }
 
 /*# sourceMappingURL=main.css.map */

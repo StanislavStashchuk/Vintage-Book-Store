@@ -53,4 +53,67 @@ body {
       }
     }
   }
+
+  .main-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 5px solid red;
+
+    .collections {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 4px solid saddlebrown;
+    }
+
+    .new-books {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 4px solid blueviolet;
+    }
+
+    .bestselling {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 4px solid green;
+    }
+
+    .everyone-talking-about {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 4px solid darkgoldenrod;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 4px solid black;
+    }
+
+    .events {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 3px solid slateblue;
+    }
+
+    .sign-up {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      border: 3px solid firebrick;
+    }
+  }
 }
